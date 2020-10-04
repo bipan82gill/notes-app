@@ -10,33 +10,47 @@ body{
     display: flex;
 
 }
-.notes{
+.add{
+    background-color: rgb(72, 151, 151);
+    font-size: 1.2rem;
+    color: white;
+    margin: 2rem auto;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top:1rem;
+    right:1rem;
+    outline:none;
+    cursor:pointer;
+}
+.note{
     background-color: #fff;
     margin:20px;
     width:400px;
     height:400px;
 }
-.notes .tools{
+.note .tools{
     background-color: #9ec862;
     display:flex;
     justify-content: flex-end;
     padding:0.5rem;
 }
-.notes .tools button{
+.note .tools button{
     background-color:transparent;
     font-size: 1rem;
     border:none;
     color:#fff;
     margin-left: 0.5rem;
 }
-.notes .main{
+.note .main{
     overflow: hidden;
     background-color: #fff;
     height:100%;
    
     width:100%;
 }
-.notes textarea{
+.note textarea{
     font-family:inherit;
     font-size: 1.2rem;
     border:none;
@@ -45,6 +59,6 @@ body{
     width:100%;
 
 }
-.notes .hidden{
+.note .hidden{
     display:none;
 }
