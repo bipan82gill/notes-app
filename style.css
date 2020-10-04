@@ -30,14 +30,21 @@ body{
     margin-left: 0.5rem;
 }
 .notes .main{
-    display:none;
+    overflow: hidden;
+    background-color: #fff;
     height:100%;
+   
     width:100%;
 }
 .notes textarea{
     font-family:inherit;
+    font-size: 1.2rem;
     border:none;
     outline:none;
     height:100%;
     width:100%;
+
+}
+.notes .hidden{
+    display:none;
 }
