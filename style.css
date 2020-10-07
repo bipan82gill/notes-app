@@ -29,6 +29,7 @@ body{
     margin:20px;
     width:400px;
     height:400px;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1)
 }
 .note .tools{
     background-color: #9ec862;
@@ -45,12 +46,13 @@ body{
 }
 .note .main{
     overflow: hidden;
-    background-color: #fff;
+    background-color: #eee;
     height:100%;
-   
     width:100%;
+    padding: 1rem;
 }
 .note textarea{
+    padding: 1rem;
     font-family:inherit;
     font-size: 1.2rem;
     border:none;
